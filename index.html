@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
+
     <head>
 
-        <title>IF685 - Gerenciamento de dados e informações CIN-UFPE</title>
+        <title>IF685 - Gerenciamento de dados e informação CIN-UFPE</title>
 
         <!-- META TAGS -->
         <meta charset="UTF-8">
@@ -11,14 +12,107 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="robots" content="index, nofollow">
         <!-- END META TAGS -->
-
+        <script src="dist/js/app.min.js"></script>
         <!-- CSS FILES -->
         <link rel="stylesheet" type="text/css" href="dist/css/main.min.css">
         <!-- END CSS FILES -->
         
     </head>
+
     <body>
 
-        <script src="dist/js/app.min.js"></script>
+        <ul id="slide-out" class="side-nav fixed">
+
+            <li>
+                <img id="ufpe-gif" src="assets/70anos.gif">
+            </li>
+
+            <li>
+                <img id="cin-gif" src="assets/cin.gif">
+            </li>
+
+            <li>
+                <div class="divider"></div>
+            </li>
+
+            <li>
+                <a href="#!" onclick="changeLocation('home');">
+                    <i class="material-icons">home</i>
+                    Início
+                </a>
+            </li>
+
+            <li>
+                <a onclick="changeLocation('disciplineContent');" href="#!">
+                    <i class="material-icons">event</i>
+                    Conteúdo Programático
+                </a>
+            </li>
+
+            <li>
+                <a onclick="changeLocation('bibliography');" href="#!">
+                    <i class="material-icons">import_contacts</i>
+                    Bibliografia
+                </a>
+            </li>
+
+            <li>
+                <a onclick="changeLocation('pdfs');" href="#!">
+                    <i class="material-icons">picture_as_pdf</i>
+                    Arquivos PDF
+                </a>
+            </li>
+
+            <li>
+                <a onclick="changeLocation('monitoring');" href="#!">
+                    <i class="material-icons">group</i>
+                    Monitoria
+                </a>
+            </li>
+
+            <li>
+                <a onclick="changeLocation('examsCalendar');" href="#!">
+                    <i class="no-margin-icons material-icons">date_range</i>
+                    <i class="few-margin-icons material-icons tiny">edit</i>
+                    Calendário Avaliações
+                </a>
+            </li>
+
+            <li>
+                <a onclick="changeLocation('examsResults');" href="#!">
+                    <i class="material-icons">insert_chart</i>
+                    Resultado Avaliações
+                </a>
+            </li>
+
+            <li>
+                <a onclick="changeLocation('warnings');" href="#!">
+                    <i class="material-icons">notifications</i>
+                    Quadro de avisos
+                </a>
+            </li>
+
+            <li>
+                <a onclick="changeLocation('links');" href="#!">
+                    <i class="material-icons">info_outline</i>
+                    Links
+                </a>
+            </li>
+
+        </ul>
+
+        <div id="page-content" class="container-fluid">
+
+            <nav class="center">
+                <h5 id="main-header">
+                    Gerenciamento de dados e informação
+                </h5>
+            </nav>
+
+            <div id="location-content"></div>
+
+        </div>
+
     </body>
+    
 </html>
