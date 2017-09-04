@@ -1,31 +1,49 @@
-#main-header{
+#main-header {
     padding-top: 19px;
 }
 
-@media screen and (min-width: 993px){
+@media screen and (min-width: 993px) {
+
     #page-content{
         margin-left: 300px;
     }
+
 }
 
-body{
+@media screen and (min-width: 421px) and (max-width: 600px) {
+    
+    #main-header{
+        padding-top: 15.5px !important;
+    }
+
+}
+
+body {
     background-color: #2b7a7c;
 }
 
-.no-margin-icons{
+.no-margin-icons {
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
 
-.few-margin-icons{
+.few-margin-icons {
     margin-left: 0 !important;
     margin-right: 8px !important;
 }
 
-#ufpe-gif{
+#ufpe-gif {
     margin-left: 20px;
 }
 
-#cin-gif{
+#cin-gif {
     margin-left: 59.5px;
+}
+
+@media screen and (max-width: 420px) {
+
+    #main-header{
+        font-size: 18px;
+    }
+
 }
