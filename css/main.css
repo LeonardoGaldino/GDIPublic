@@ -4,15 +4,19 @@
 
 @media screen and (min-width: 993px) {
 
-    #page-content{
+    #page-content {
         margin-left: 300px;
+    }
+
+    #loading-circle {
+        margin-left: 150px;
     }
 
 }
 
 @media screen and (min-width: 421px) and (max-width: 600px) {
     
-    #main-header{
+    #main-header {
         padding-top: 15.5px !important;
     }
 
@@ -42,8 +46,16 @@ body {
 
 @media screen and (max-width: 420px) {
 
-    #main-header{
+    #main-header {
         font-size: 18px;
     }
 
+}
+
+#loading-circle {
+    position: absolute;
+    top: calc(50% - 64px);
+    left: calc(50% - 64px);
+    width: 128px !important;
+    height: 128px !important;
 }
