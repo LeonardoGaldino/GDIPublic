@@ -6,7 +6,7 @@ function changeLocation(event){
 
     if(currentLocation != targetLocation){
         $('#loading-circle').show();
-        $('#location-content').load('/pages/'+targetLocation+'.html', function(){
+        $('#location-content').load('/app/pages/'+targetLocation+'.html', function(){
             $('#loading-circle').hide();
         });
         currentLocation = targetLocation;
