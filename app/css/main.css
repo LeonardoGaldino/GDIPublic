@@ -111,5 +111,13 @@ body {
 }
 
 nav {
-    background-color: #2c7254;
+    background-color: #424242;
+}
+
+#main-card {
+    margin-top: 15px;
+}
+
+.card-title {
+    margin-top: 0px;
 }
