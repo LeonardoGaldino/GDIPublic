@@ -122,6 +122,6 @@ nav {
     margin-top: 0px;
 }
 
-.overflow-scroll {
-    overflow-x: scroll
+ul.browser-default {
+    padding-left: 15px;
 }
