@@ -6,12 +6,14 @@ function changeLocation(event){
     var targetLocation = ($(event).length > 0 ? $(event.target).attr('id') : event);
 
     if(currentLocation != targetLocation){
+        $('#main-card').hide();
         $('#loading-circle').show();
         $('#location-content').load('/pages/'+targetLocation+'.html', function(){
             $('#loading-circle').hide();
+            $('#main-card').show();        
         });
         currentLocation = targetLocation;
-        if(window.innerWidth < 993)
+        if(window.innerWidth <= 992)
             $(".drag-target").click();
     }
 
