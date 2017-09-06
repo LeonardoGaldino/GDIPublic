@@ -121,3 +121,7 @@ nav {
 .card-title {
     margin-top: 0px;
 }
+
+.overflow-scroll {
+    overflow-x: scroll
+}
