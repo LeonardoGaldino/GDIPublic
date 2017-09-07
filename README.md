@@ -5,5 +5,5 @@
 * Clone the repository
 * Install dependencies running npm install
 * Run automatized tasks running gulp
-* Run a local server on root directory (python -m SimpleHTTPServer, if you have python2x)
+* Run a local server on app directory (python -m SimpleHTTPServer, if you have python2x)
 * Access via localhost:8000
