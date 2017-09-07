@@ -75,10 +75,6 @@ body {
         font-size: 18px;
     }
 
-    #mobile-menu-link, #menu-icon {
-        margin-right: 0px;
-    }
-
 }
 
 @media screen and (max-width: 992px) {
@@ -141,24 +137,3 @@ ul.browser-default {
 .selected-page {
     background-color: rgba(0, 0, 0, 0.05);
 }
-
-.table-row-modal {
-    cursor: pointer;
-}
-
-.info-warning {
-    color: rgba(0, 0, 0, 0.65);
-}
-
-.list-item-no-bullet {
-    list-style-type: none;
-}
-
-.list-item-far-top {
-    margin-top: 15px;
-}
-
-.list-item-far-bottom {
-    margin-bottom: 15px;
-}
-
