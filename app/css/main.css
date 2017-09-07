@@ -146,3 +146,7 @@ ul.browser-default {
     cursor: pointer;
 }
 
+.info-warning {
+    color: rgba(0, 0, 0, 0.65);
+}
+
