@@ -36,6 +36,14 @@
         padding-top: 11px !important;
     }
 
+    .main-card-panel-responsive {
+        padding-left: 12px;
+    }
+
+    #discipline-content-header {
+        margin-left: 6px;
+    }
+
 }
 
 body {
@@ -132,5 +140,9 @@ ul.browser-default {
 
 .selected-page {
     background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-row-modal {
+    cursor: pointer;
 }
 
