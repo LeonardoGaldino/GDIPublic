@@ -125,3 +125,12 @@ nav {
 ul.browser-default {
     padding-left: 15px;
 }
+
+.page-header {
+    margin-top: 0px;
+}
+
+.selected-page {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
