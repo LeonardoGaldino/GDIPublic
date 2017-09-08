@@ -1,9 +1,9 @@
 function addPDFsLinks() {
     var pdfs = $('.download-pdf');
-    for(var i = 0 ; i < pdfs.length ; ++i){
-        var url = ('assets/pdfs/' + pdfs[i].id + '.pdf')
-        pdfs[i].href = url;
-    }
+    pdfs.each(function(idx, pdf) {
+        var url = ('assets/pdfs/' + pdf.id + '.pdf');
+        pdf.href = url;
+    });
 }
 
 function fixOrderOffset() {
