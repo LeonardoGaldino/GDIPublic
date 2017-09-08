@@ -3,3 +3,29 @@
     top: 15px;
     padding: 0 0 0 5px;
 }
+
+.pdf-order-circle {
+     width: 30px;
+     height: 30px;
+     position: absolute;
+     top: -15px;
+     left: -15px;
+}
+
+.pdf-order-span {
+    font-size: 15px;
+    position: absolute;
+    top: 3px;
+}
+
+.pdf-order-span-offset-small {
+    left: 11px;
+}
+
+.pdf-order-span-offset-large {
+    left: 13px;
+}
+
+span {
+    word-wrap: break-word;
+}
